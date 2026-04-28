@@ -1,0 +1,18 @@
+# ── Web framework ─────────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9       # required for FastAPI file uploads
+
+# ── AI ────────────────────────────────────────────────────────────────────────
+google-generativeai>=0.7.0
+
+# ── Data ─────────────────────────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.26.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0          # load GEMINI_API_KEY from .env
+requests>=2.31.0
+
+# ── Streamlit UI (optional — only needed for app.py) ──────────────────────────
+streamlit>=1.35.0
